@@ -23,7 +23,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 
-app.get('/chat', (req, res) => {
+app.get('/', (req, res) => {
     res.render('chat')
 })
 
